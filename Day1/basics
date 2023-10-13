@@ -1,0 +1,105 @@
+"""a = 3
+b = "3.0"
+print(a + int(float(b)))
+
+
+a=3
+A=4
+print(a+3+7)
+
+ex=3+True
+print(ex)
+
+if 3:
+    print('hi')
+else:
+    print('bye')"""
+
+"""a35=6
+35a=7
+35_a=8
+_a=9
+print(a35+35a)
+print(35_a+_a)
+a$=7
+print(a$)"""
+"""
+def namage():
+   name=input("Enter your Name")
+   age=input("Enter your Age")
+   print("My name is ",name,"and My age is",age)
+   
+   
+def namage1():#parameters
+  name=input("Enter your Name")
+  age=input("Enter your Age")
+  if name=="ajay":
+      print("My name is ",name,"and My age is",age)
+  else:
+      print("Invalid name")
+     
+def greatage():
+  name1=input("Enter your Name1 ")
+  age1=input("Enter your Age1 ")
+  name2=input("Enter your Name2 ")
+  age2=input("Enter your Age2 ")
+  if age1>age2:
+     print("My name is ",name1,"and My age is",age1)
+  else:
+     print("My name is ",name2,"and My age is",age2)
+
+namage()#arguments
+namage1()
+greatage()"""
+"""def calculator():
+    ch1=True
+    while ch1:
+        ch=int(input("Enter your choice 1.Addition 2.Subtraction 3.Multiplication 4.Division 5.Exit : "))
+        if ch==1:
+            a=int(input("Enter a number 1: "))
+            b=int(input("Enter a number 2: "))
+            c=a+b
+            print(c)
+        elif ch==2:
+            a=int(input("Enter a number 1: "))
+            b=int(input("Enter a number 2: "))
+            c=a-b
+            print(c)
+        elif ch==3:
+            a=int(input("Enter a number 1: "))
+            b=int(input("Enter a number 2: "))
+            c=a*b
+            print(c)
+        elif ch==4:
+            a=int(input("Enter a number 1: "))
+            b=int(input("Enter a number 2: "))
+            c=a/b
+            print(c)
+        elif ch==5:
+            ch1=False
+            print("Exit!!!")
+        else:
+            print("Invalid choice")
+calculator()"""
+"""
+list1=[]
+n=int(input("Enter the limit"))
+for i in range(n):
+    a=int(input("Enter the value"))
+    list1.append(a)
+largest=0;
+for num in list1:
+    if num>largest:
+        largest=num
+print("Largest number in the list is",largest)"""
+
+list1=[]
+n=int(input("Enter the limit"))
+for i in range(n):
+    a=int(input("Enter the value"))
+    list1.append(a)
+avg=0
+sum1=0
+for num in list1:
+    sum1+=num
+print("Sum=",sum1,"Average=",sum1/n)
