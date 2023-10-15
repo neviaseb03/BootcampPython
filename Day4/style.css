@@ -1,0 +1,41 @@
+h1
+{
+  text-align: center;
+  background-color: blueviolet
+  
+}
+div 
+{    
+    border: 2px solid red;  
+}  
+img
+{  
+    height: 250px;  
+    width: 250px;  
+}  
+table 
+{
+        border-collapse: collapse; 
+        width: 100%; 
+}
+      
+      th, td {
+        border: 1px dotted #000; 
+        padding: 8px; 
+      }
+      
+      th {
+        background-color: #025832; 
+      }
+      tr{
+        background-color: red;
+      }
+.fr1
+{
+    color: red;
+}
+.img1 {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+  }
