@@ -1,0 +1,7 @@
+checklist {
+    list-style-type: none;
+}
+.checklist li::before {
+    content: '\2713'; /* Checkmark symbol */
+    margin-right: 10px;
+}

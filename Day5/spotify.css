@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(27, 196, 188, 0.723);
+}
+h3,p{
+    font-family: "Fantasy", "Papyrus";
+}
+
+    
+
+table, th, td {
+    border: 3px solid rgba(48, 212, 204, 0.723);
+    border-collapse: collapse;
+    
+    text-align: center;
+}
+table{
+    background-color: rgba(141, 225, 193, 0.996);
+    border-color: rgb(129, 216, 187);
+}
